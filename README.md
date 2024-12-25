@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# Bileve-official
-This is the official implementation of Bileve (NeurIPS'24).
-
-The code is currently under protection due to an ongoing patent application but will be released shortly after the conference concludes. Stay tuned!
-=======
-
 # Bileve: Securing Text Provenance in Large Language Models Against Spoofing with Bi-level Signature
 
 
@@ -119,10 +112,6 @@ year={2024}
 
 ## License
 This project is licensed. See the `LICENSE` file for details.
-
-
-
-
 
 
 
