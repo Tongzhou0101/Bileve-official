@@ -1,0 +1,9 @@
+Cython==3.0.11
+fastecdsa==2.3.2
+levenshtein==0.26.1
+numpy==2.2.0
+scipy==1.14.1
+torch==2.3.1
+tqdm==4.66.4
+transformers==4.42.3
+fastecdsa==2.3.2
