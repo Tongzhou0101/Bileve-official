@@ -8,7 +8,9 @@
 Text watermarks for LLMs are promising for combating deepfakes and harmful content but are vulnerable to spoofing attacks that can manipulate meaning or forge content, risking wrongful attribution. To address this, we propose Bileve, a bi-level signature scheme that embeds fine-grained integrity bits to counter spoofing and a coarse-grained signal for tracing text sources when signatures are invalid. Using a novel rank-based sampling strategy, Bileve detects and differentiates 5 scenarios, enhancing reliability in text provenance and LLM regulation. 
 
 
-![Bileve Detection](images/detection.png "Bileve Detection")
+
+<img src="images/detection.png" alt="Bileve Detection" width="600">
+
 
 
 ## Installation
