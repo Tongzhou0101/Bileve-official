@@ -1,14 +1,12 @@
-# Bileve: Securing Text Provenance in Large Language Models Against Spoofing with Bi-level Signature
+# Bileve: Securing Text Provenance in Large Language Models Against Spoofing with Bi-level Signature (NeurIPS'24)
 
 
 ## Overview
-Text watermarks for LLMs are promising for combating deepfakes and harmful content but are vulnerable to spoofing attacks that can manipulate meaning or forge content, risking wrongful attribution. To address this, Bileve, a bi-level signature scheme, embeds fine-grained integrity bits to counter spoofing and a coarse-grained signal for tracing text sources when signatures are invalid. Using a novel rank-based sampling strategy, Bileve detects and differentiates 5 scenarios, enhancing reliability in text provenance and LLM regulation. 
+Text watermarks for LLMs are promising for combating deepfakes and harmful content but are vulnerable to spoofing attacks that can manipulate meaning or forge content, risking wrongful attribution. To address this, we propose Bileve, a bi-level signature scheme that embeds fine-grained integrity bits to counter spoofing and a coarse-grained signal for tracing text sources when signatures are invalid. Using a novel rank-based sampling strategy, Bileve detects and differentiates 5 scenarios, enhancing reliability in text provenance and LLM regulation. 
 
+![Bileve Framework Overview](images/overview.png "Bileve Framework")
+![Bileve Detection](images/detection.png "Bileve Detection")
 
-## Prerequisites
-1. Python 3.10 or later.
-2. A virtual environment (optional but recommended).
-3. Required libraries specified in `requirements.txt`.
 
 ## Installation
 ### Step 1: Clone the Repository
@@ -112,10 +110,3 @@ year={2024}
 
 ## License
 This project is licensed. See the `LICENSE` file for details.
-
-
-
-
-
-
->>>>>>> ff84eea (Initial commit)
